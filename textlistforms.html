@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p><a href="textlistforms.html">Textes&Listes&Formulaires</a><span>|</span><a href="tables.html">Tableaux</a><span>|</span><a href="medias.html">Médias</a></p>
+        <hr>
+        <ul>
+            <li>Etudiant</li>
+            <li>Enseignant</li>
+            <li>Abbréviations</li>
+        </ul>
+        <hr>
+        <h2 id="Etudiant">1.Etudiant</h2>
+        <form action="page1.html" method="post">
+            Prénom:
+            <input type="text" name="fname">
+            Nom:
+            <input type="text" name="lname">
+            <br>
+            Année d'études
+            <input type="radio" name="anne1">
+            <label for="anne1">1A</label>
+            <input type="radio" name="anne2">
+            <label for="anne2">2A</label>    
+            <br>
+            <p>Remarques</p>
+            <textarea name="remarques" cols="30" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Valider">
+        </form>
+        
+        <hr>
+        <h2 id="Enseignant">2.Enseignant</h2>
+        <form action="page1.html" method="get">
+            Prénom:<br>
+            <input type="text" name="fname"><br>
+            Nom:<br>
+            <input type="text" name="lname"><br><br>
+            
+            <p>Site
+                <select name="sitet">
+                <option>Brest</option>
+                <option>Nantes</option>
+                <option>Rennes</option>
+                </select>
+            </p>
+            <p>Mot de passe</p>
+            <input type="password">
+            <br><br>
+            <input type="submit" value="Valider">
+        </form>
+        
+        <hr>
+        <h2 id="Abbreviation">3.Abbreviation</h2>
+        <dl>
+            <dt>ISEN</dt>
+            <dd>Institut Supérieur de L'Elelectronique et du Numérique</dd>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+        </dl>
+    </body>
+</html>
