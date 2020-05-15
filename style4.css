@@ -1,0 +1,33 @@
+h1{font-family : 'Marko One', serif;font-size: 1.5em; color: #993399;text-shadow: .2em .2em #D3D3D3; }
+body {
+    font-family: Verdana;
+}
+span.price,#info>p{font-family: Georgia;color:#808080;font-style: italic }
+body,h2{font-size: 1em ;}
+h2{color:#CC6600;font-stretch:ultra-expanded ;text-transform: uppercase;letter-spacing: 8px; }
+dl> dt{color:#A0522D;font-weight: bold;}
+p.warning{color:#FF0000}
+dd,p,span.label{color:black;font-style: normal}
+strong{color:#FF6347;font-style: italic;font-weight: bold;}
+#div1,h2{text-align: center;}
+div li{list-style: none;}
+li.c2{list-style-type: circle; }
+li.c1{list-style-type: lower-roman; }
+li.c3{list-style-type: disc;text-indent: 0.1em;list-style-position: inside;}
+li.c4{
+    list-style-image: url("images/bull.PNG");
+    list-style-position: outside;
+    }
+body{background-color: #D2DC9D;background-image: url("images/blackgoose.png");background-repeat: no-repeat;background-position: center}
+#div1{
+    background-image: url(images/purpledot.png),url(images/purpledot.png),url(images/goose_shadow.png),url(images/gooseshadow.png);
+    background-position: right,left,90% 100%,90% 100%;
+    background-repeat: repeat-y,repeat-y,no-repeat,no-repeat;
+    background-size: auto,auto,75px 75px,75px 75px;
+    background-color: white;
+    opacity:0.5;
+    
+}
+li a{color: #993399}
+li a:hover{color: #C700F2;background-color: #FFC0CB;}
+li a:visited{color: #937393;}
