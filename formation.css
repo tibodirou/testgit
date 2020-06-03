@@ -1,0 +1,20 @@
+#formation {
+    border: 3px solid #783F27;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Georgia, serif;
+  line-height: 1.5em;
+    
+  
+  }
+  .annee{
+    display: flex;
+    background: #F6F3ED;
+    margin: 10px;
+    padding: 20px;
+    border: 1px dotted maroon;
+    width: 240px;
+  }
+  
+  body{background-color: #D2DC9D;background-image: url("Yncrea_BM_ISEN-_horizontal-1.jpg");background-repeat: no-repeat;background-position: center}

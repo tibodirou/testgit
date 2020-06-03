@@ -19,27 +19,36 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Accueil  <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="accueil.html">Accueil  <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Nourriture</a>
+                  <a class="nav-link" href="nourriture.html">Nourriture</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sport</a>
+                  <a class="nav-link" href="sport.html">Sport</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sommeil</a>
+                  <a class="nav-link" href="sommeil.html">Sommeil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="blog.html">Blog</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">A propos</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="equipe.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    A propos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="contact.html">contact</a>
+                    <a class="dropdown-item" href="equipe.html">equipe</a>
+            
+                  </div>
                 </li>
               </ul>
             </div>
           </nav>
-          <div class="jumbotron">
+          <br>
+          <div class="container-fluid" style="width: 85%;">
+          <div class="jumbotron ">
             <h1 class="display-4"><span class="material-icons">
               apps
               </span>Moniteur d'activités</h1>
@@ -50,8 +59,9 @@
          
       
           <!-- Topics -->
-          <div class="container-fluid" >
+          
             <div class="row" >
+              <div class="col-auto">
             <div class="card" style="width: 18rem;">
               <img src="nourriture.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -62,7 +72,8 @@
                 <a href="#nourriture" class="btn btn-primary">voir plus</a>
               </div>
             </div>
-         
+          </div>
+            <div class="col-auto">
               <div class="card" style="width: 18rem;">
                 <img src="sport.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -73,7 +84,8 @@
                   <a href="#sport" class="btn btn-primary">voir plus</a>
                 </div>
               </div>
-            
+            </div>
+              <div class="col-auto">
                 <div class="card" style="width: 18rem;">
                   <img src="sommeil.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -84,7 +96,8 @@
                     <a href="#sommeil" class="btn btn-primary">voir plus</a>
                   </div>
                 </div>
-              
+              </div>
+                <div class="col-auto">
                   <div class="card" style="width: 18rem;">
                     <img src="photos.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -93,11 +106,11 @@
                         </span>Blog :</h5>
                       <p class="card-text">Où êtes vous allé ? Suivez votre activité en image !</p>
                       <a href="#blog" class="btn btn-primary">voir plus</a>
-              
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          <hr />
+          
     </body>
 </html>

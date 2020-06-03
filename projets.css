@@ -1,0 +1,134 @@
+#layout {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+  }
+
+#proj1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;  
+    text-align: center; 
+    background: #F6F3ED;
+  margin: 10px;
+  
+  border: 1px dotted maroon;
+  width: 240px;
+  font-weight: bold;
+  
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+
+  font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+#proj2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2; 
+    text-align: center;
+    background: #F6F3ED;
+    margin: 10px;
+    
+    border: 1px dotted maroon;
+    width: 240px;
+    font-weight: bold;
+    
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+
+    font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+#proj3{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3; 
+    text-align: center;
+    background: #F6F3ED;
+    margin: 10px;
+    
+    border: 1px dotted maroon;
+    width: 240px;
+    font-weight: bold;
+    
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+
+    font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+
+#proj4{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4; 
+    text-align: center;
+    background: #F6F3ED;
+    margin: 10px;
+    
+    border: 1px dotted maroon;
+    width: 240px;
+    font-weight: bold;
+
+    font-family: Georgia, serif;
+  line-height: 1.5em;
+
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#figA{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#figB{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#figC{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#figD{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 4; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body{background-color: #D2DC9D;background-image: url("Yncrea_BM_ISEN-_horizontal-1.jpg");background-repeat: no-repeat;background-position: 50% 200%}

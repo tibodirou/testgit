@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="indexTp4.css" rel="stylesheet">
+  
+  
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil  <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nourriture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sommeil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1 class="display-4"><span class="material-icons">
+        apps
+        </span>Moniteur d'activités</h1>
+      <p class="lead">Bienvenue sur notre outil de suivi d'activités. Visualisez les statistiques sur vos repas, vos activités sportives ou encore sur votre sommeil</p>
+      
+    </div>
+    
+    <p>
+      Bienvenue sur notre outil de suivi d'activités. Visualisez les statistiques sur vos repas, vos activités sportives ou encore sur votre sommeil.
+    </p>
+    <hr />
+
+    <!-- Topics -->
+    <div class="container">
+      <div class="card" style="width: 18rem;">
+        <img src="images\nourriture.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><span class="material-icons">
+            fastfood
+            </span>Nourriture :</h5>
+          <p class="card-text">Suivez vos repas : heure, type, quantité, calories...</p>
+          <a href="#nourriture" class="btn btn-primary">voir plus</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" style="width: 18rem;">
+          <img src="images\sport.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span class="material-icons">
+              sports
+              </span>Sport :</h5>
+            <p class="card-text">Quelles activités avez-vous pratiquées aujourd'hui ?</p>
+            <a href="#sport" class="btn btn-primary">voir plus</a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="card" style="width: 18rem;">
+            <img src="images\sommeil.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><span class="material-icons">
+                timeline
+                </span>Sommeil :</h5>
+              <p class="card-text">Dormez-vous assez ? Suivez la qualité de votre sommeil.</p>
+              <a href="#sommeil" class="btn btn-primary">voir plus</a>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card" style="width: 18rem;">
+              <img src="images\photos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><span class="material-icons">
+                  add_a_photo
+                  </span>Blog :</h5>
+                <p class="card-text">Où êtes vous allé ? Suivez votre activité en image !</p>
+                <a href="#blog" class="btn btn-primary">voir plus</a>
+              </div>
+            </div>
+          </div>
+    <hr />
+
+    <!-- Food -->
+    <div id="nourriture">
+      <h2>Repas de la journée</h2>
+      Petit déjeuner
+      <ul>
+        <li>Oeufs bacon (25 calories)</li>
+        <li>Jus d'orange (5 calories)</li>
+        <li>Tranche de brioche (15 calories)</li>
+      </ul>
+      Déjeuner
+      <ul>
+        <li>Carrotes rapés (35 calories)</li>
+        <li>Pizza au chèvre (75 calories)</li>
+        <li>Pomme (10 calories)</li>
+      </ul>
+      Dîner
+      <ul>
+        <li>Soupe d'asperges (20 calories)</li>
+        <li>Croque monsieur (55 calories)</li>
+        <li>Crème au chocolat (45 calories)</li>
+      </ul>
+    </div>
+    <hr />
+
+    <!-- Sport -->
+    <div id="sport">
+      <h2>Sport - performances de la semaine</h2>
+      Vélo du 10 mai 2017
+      <ul>
+        <li>0Km - 00:00:00 - Brest</li>
+        <li>13.3Km - 00:50:00 - Saint-Renan</li>
+        <li>20.5Km - 01:20:00 - Milizac</li>
+        <li>32Km - 02:00:00 - Brest</li>
+      </ul>
+      Footing du 12 janvier 2017
+      <ul>
+        <li>0Km - 00:00:00 - Océanopolis</li>
+        <li>1.7Km - 00:11:00 - Plage du Moulin Blanc</li>
+        <li>4.6Km - 00:29:00 - Vallon du Stang Alar</li>
+        <li>7.3Km - 00:44:00 - Océanopolis</li>
+      </ul>
+    </div>
+    <hr />
+
+    <!-- Sleep -->
+    <div id="sommeil">
+      <h2>Sommeil - vérifiez votre repos</h2>
+      J - 3
+      <ul>
+        <li>4h : Sommeil profond</li>
+        <li>30m : Sommeil léger</li>
+        <li>1h : Sommeil profond</li>
+        <li>30m : Phase de réveil</li>
+        <li>1h : Sommeil léger</li>
+      </ul>
+      J - 2
+      <ul>
+        <li>3h30 : Sommeil profond</li>
+        <li>1h : Sommeil léger</li>
+        <li>30m : Phase de réveil</li>
+        <li>1h : Sommeil léger</li>
+        <li>2h30 : Sommeil profond</li>
+        <li>30m : Sommeil léger</li>
+      </ul>
+      J - 1
+      <ul>
+        <li>2h : Sommeil léger</li>
+        <li>3h : Phase de réveil</li>
+        <li>2h : Sommeil léger</li>
+        <li>1h : Sommeil profond</li>
+      </ul>
+    </div>
+    <hr />
+
+    <!-- Blog -->
+    <div id="blog">
+      <h2>Photos - cliquez pour les voir en grand</h2>
+      <img src="img/nourriture.jpg" alt="Nourriture" width="100px" />
+      <strong>Premier repas de la journée :</strong> Petit déjeuner à base de légumes et fruits frais.
+      <br />
+      <img src="img/sport.jpg" alt="Sport" width="100px" />
+      <strong>Petit footing du matin :</strong> 7km en bord de mer avec un petit vent d'ouest.
+      <br />
+      <img src="img/sommeil.jpg" alt="Sommeil" width="100px" />
+      <strong>La journée qui commence :</strong> Réveil à 7h15 de bon pied et en route pour une nouvelle journée bien chargée.
+      <br />
+      <img src="img/photos.jpg" alt="Photos" width="100px" />
+      <strong>Shooting photos :</strong> Pause de midi en campagne pour capturer la nature avec mon appareil.
+    </div>
+    <hr />
+
+    <!-- Team -->
+    <div id="team">
+      <h2>L'équipe de développement</h2>
+      <img src="img/berners-lee.jpg" alt="Tim Berners-Lee" width="100px" />
+      <strong>Tim Berners-Lee :</strong> Programmeur HTML
+      <br />
+      <img src="img/lie.jpg" alt="Håkon Wium Lie" width="100px" />
+      <strong class="text-center">Håkon Wium Lie :</strong> Programmeur CSS
+      <br />
+      <img src="img/eich.jpg" alt="Brendan Eich" width="100px" />
+      <strong class="text-center">Brendan Eich :</strong> Programmeur JS
+      <br />
+      <img src="img/lerdorf.jpg" alt="Rasmus Lerdorf" width="100px" />
+      <strong class="text-center">Rasmus Lerdorf :</strong> Programmeur PHP
+      <br />
+      <img src="img/chamberlin.jpg" alt="Donald Chamberlin" width="100px" />
+      <strong class="text-center">Donald Chamberlin :</strong> Programmeur SQL
+    </div>
+    <hr />
+
+    <!-- Contact -->
+    <div id="contact">
+      <h2>Contactez-nous</h2>
+        <form>
+          <input type="text" placeholder="Nom d'utilisateur">
+          <br />
+          <input type="email" placeholder="Email">
+          <br />
+          <label for="message">Message</label>
+          <br />
+          <textarea id="message" rows="5"></textarea>
+          <br />
+          <button type="submit">Envoyer</button>
+        </form>
+    </div>
+  </body>
+</html>
